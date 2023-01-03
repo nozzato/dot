@@ -2,7 +2,6 @@
 	email = noahtorrance27@gmail.com
 	name = Noah Torrance
 [core]
-	filemode = false
 	pager = nvimpager
 [pull]
 	ff = only
