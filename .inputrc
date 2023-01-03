@@ -1,0 +1,44 @@
+## behaviour
+
+# bell
+set bell-style none
+
+# delete key
+set enable-keypad on
+
+# line editing mode
+set editing-mode emacs
+#set editing-mode vi
+
+## looks
+
+# cursor shape
+set show-mode-in-prompt on
+$if mode=emacs
+    $if term=linux
+        set emacs-mode-string \1\e[?8c\2
+    $else
+        set emacs-mode-string \1\e[2 q\2
+    $endif
+$else
+    set show-mode-in-prompt on
+    $if term=linux
+        set vi-cmd-mode-string \1\e[?8c\2
+        set vi-ins-mode-string \1\e[?0c\2
+    $else
+        set vi-cmd-mode-string \1\e[2 q\2
+        set vi-ins-mode-string \1\e[6 q\2
+    $endif
+$endif
+
+# completion
+set colored-stats On
+set completion-ignore-case
+
+## macros
+
+# execute as sudo
+"\es": "\C-asudo \C-m"
+# retry as sudo
+"\er": "\C-asudo !!\C-m"
+

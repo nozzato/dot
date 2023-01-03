@@ -1,0 +1,14 @@
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86Audio{Raise,Lower}Volume
+    pactl set-sink-volume @DEFAULT_SINK@ {+,-}5%
+
+XF86AudioPlay
+    mpc toggle
+
+XF86Audio{Next,Prev}
+    mpc {next,prev}
+
+XF86MonBrightness{Up,Down}
+    backlight_control {+,-}5

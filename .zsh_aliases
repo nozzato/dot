@@ -1,0 +1,44 @@
+### Aliases
+
+# Custom
+alias rt='trash-put'
+alias git-force-pull='git reset --hard HEAD; git pull'
+alias git-force-push='git push --force'
+alias swallow='dwmswallow $WINDOWID;'
+alias suspend='systemctl suspend'
+alias hibernate='systemctl hibernate'
+alias inhibit='systemd-inhibit --what=shutdown:sleep:idle:handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch '
+alias grub-update='grub-mkconfig -o /boot/grub/grub.cfg'
+alias ytdl='yt-dlp -f "bestvideo[ext!=webm]+bestaudio[ext!=webm]/best[ext!=webm]"'
+
+# Options
+alias cp='cp -vi'
+alias mv='mv -vi'
+alias rm='rm -v'
+alias shred='shred -vuz'
+alias chmod='chmod -v'
+alias chown='chown -v'
+alias ls='ls -lAhvN --group-directories-first --time-style=long-iso --color=auto'
+alias history='history -i'
+alias grep='grep -i --color=auto'
+alias diff='diff --color=auto'
+alias less='less -i -x 4'
+alias ip='ip --color=auto'
+alias paru='paru --skipreview'
+
+# Override
+alias cat='bat'
+alias grep='rg -S'
+alias vim='nvim'
+
+# Inhibit
+alias blender='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch blender'
+alias obs='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch obs'
+alias screenkey='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch screenkey -M -p fixed -g 420x80+0+950 --key-mode raw --bak-mode normal -f "DejaVu Sans Mono" --opacity 0.2 --ignore KP_Subtract'
+alias veracrypt='systemd-inhibit --what=shutdown:handle-power-key veracrypt'
+
+# Chain
+alias sudo='sudo '
+
+# Deny
+alias rm='echo -e "Remember to use \e[32mtrash-put\e[0m instead of \e[31mrm\e[0m"; echo -en "If you really want to use \e[31mrm\e[0m, escape the command like so: \e[32m"; echo -n "\\"; echo -e "rm\e[0m"; false'
