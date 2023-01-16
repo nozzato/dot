@@ -9,7 +9,6 @@ alias suspend='systemctl suspend'
 alias hibernate='systemctl hibernate'
 alias inhibit='systemd-inhibit --what=shutdown:sleep:idle:handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch '
 alias grub-update='grub-mkconfig -o /boot/grub/grub.cfg'
-alias ytdl='yt-dlp -f "bestvideo[ext!=webm]+bestaudio[ext!=webm]/best[ext!=webm]"'
 
 # Options
 alias cp='cp -vi'
