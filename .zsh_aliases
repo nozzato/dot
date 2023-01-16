@@ -38,6 +38,7 @@ alias veracrypt='systemd-inhibit --what=shutdown:handle-power-key veracrypt'
 
 # Chain
 alias sudo='sudo '
+alias proxychains='proxychains '
 
 # Deny
 alias rm='echo -e "Remember to use \e[32mtrash-put\e[0m instead of \e[31mrm\e[0m"; echo -en "If you really want to use \e[31mrm\e[0m, escape the command like so: \e[32m"; echo -n "\\"; echo -e "rm\e[0m"; false'
