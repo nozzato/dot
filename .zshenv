@@ -2,7 +2,6 @@
 
 export PATH="$PATH":~/bin
 export EDITOR=nvim
-export PAGER=nvimpager
 
 # clipmenu
 export CM_SELECTIONS=clipboard
