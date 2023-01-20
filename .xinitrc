@@ -23,13 +23,16 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# Root window
+# Display
+autorandr -c
 xsetroot -solid "#15161e"
 #nitrogen --restore
 
 # Keymap
 setxkbmap gb
-setxkbmap -option caps:escape
+setxkbmap -option caps:backspace
+setxkbmap -option shift:both_capslock
+xmodmap -e "clear Lock"
 setxkbmap -option compose:ralt
 numlockx
 
