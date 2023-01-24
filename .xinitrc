@@ -41,6 +41,7 @@ slstatus &
 clipmenud &
 dunst &
 xbanish -s -i shift -i lock -i control -i mod1 -i mod4 -t 60 &
+otd &
 pulseaudio-equalizer enable
 
 # Programs
