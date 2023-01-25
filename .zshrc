@@ -3,7 +3,7 @@
 ### Plugins
 
 source '/usr/share/zsh-antidote/antidote.zsh'
-antidote load
+antidote load && clear
 
 ### General options
 
