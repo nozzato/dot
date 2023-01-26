@@ -28,6 +28,9 @@ autorandr -c
 xsetroot -solid "#15161e"
 #nitrogen --restore
 
+# Audio
+pulseaudio-equalizer enable
+
 # Keymap
 setxkbmap gb
 setxkbmap -option caps:backspace
@@ -41,8 +44,8 @@ slstatus &
 clipmenud &
 dunst &
 xbanish -s -i shift -i lock -i control -i mod1 -i mod4 -t 60 &
+thunar --daemon &
 otd &
-pulseaudio-equalizer enable
 
 # Programs
 thunderbird &
