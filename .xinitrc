@@ -48,9 +48,10 @@ thunar --daemon &
 otd &
 
 # Programs
-thunderbird &
-keepassxc &
 pavucontrol &
+keepassxc &
+ncmpcpps &
+thunderbird &
 
 # Start dwm
 exec dwm
