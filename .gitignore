@@ -1,0 +1,6 @@
+.config/OpenRGB/OpenRGB.json
+.config/OpenRGB/logs
+.config/mpd/mpd.db
+.config/mpd/mpdstate
+.config/ncmpcpp/error.log
+.config/ranger/plugins/__pycache__
