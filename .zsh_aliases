@@ -2,8 +2,6 @@
 
 # Custom
 alias rt='trash-put'
-alias git-force-pull='git reset --hard HEAD; git pull'
-alias git-force-push='git push --force'
 alias swallow='dwmswallow $WINDOWID;'
 alias suspend='systemctl suspend'
 alias hibernate='systemctl hibernate'
