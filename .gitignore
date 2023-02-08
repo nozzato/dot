@@ -4,3 +4,5 @@
 .config/mpd/mpdstate
 .config/ncmpcpp/error.log
 .config/ranger/plugins/__pycache__
+.config/retroarch/*
+!.config/retroarch/retroarch.cfg
