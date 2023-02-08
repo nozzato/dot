@@ -9,6 +9,9 @@ export CM_SELECTIONS=clipboard
 # Go
 export GOPATH=$HOME/.go
 
+# GTK
+GTK_THEME=Adwaita:dark
+
 # OpenAL
 export ALSOFT_DRIVERS=pulse
 
