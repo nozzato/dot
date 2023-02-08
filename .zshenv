@@ -10,7 +10,7 @@ export CM_SELECTIONS=clipboard
 export GOPATH=$HOME/.go
 
 # GTK
-GTK_THEME=Adwaita:dark
+export GTK_THEME=Adwaita:dark
 
 # OpenAL
 export ALSOFT_DRIVERS=pulse
