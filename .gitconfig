@@ -4,7 +4,7 @@
 [pull]
 	ff = only
 [alias]
-	pull-force = "git reset --hard HEAD; git pull"
-	push-force = git push --force
+	pull-force = !git reset --hard HEAD && git pull
+	push-force = push --force
 	clone-all = clone --recurse-submodules
 	pull-all = pull --recurse-submodules
