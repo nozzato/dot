@@ -6,3 +6,5 @@
 .config/ranger/plugins/__pycache__
 .config/retroarch/*
 !.config/retroarch/retroarch.cfg
+.config/systemd/user/default.target.wants
+.config/systemd/user/sockets.target.wants

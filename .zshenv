@@ -18,6 +18,9 @@ export ALSOFT_DRIVERS=pulse
 # ranger
 export RANGER_LOAD_DEFAULT_RC=0
 
+# SSH
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
+
 # VeraCrypt
 export WXSUPPRESS_SIZER_FLAGS_CHECK=1
 
