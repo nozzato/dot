@@ -25,7 +25,6 @@ fi
 
 # Display
 autorandr -c
-(sleep 1 && xcompmgr) &
 hsetroot -solid "#15161e"
 
 # Audio
@@ -52,6 +51,9 @@ pavucontrol &
 keepassxc &
 ncmpcpps &
 thunderbird &
+
+# compositor
+xcompmgr &
 
 # Start dwm
 exec dwm
