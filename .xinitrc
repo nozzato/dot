@@ -45,15 +45,13 @@ dunst &
 xbanish -s -i shift -i lock -i control -i mod1 -i mod4 -t 60 &
 thunar --daemon &
 otd &
+(sleep 1 && xcompmgr) &
 
 # Programs
 pavucontrol &
 keepassxc &
 ncmpcpps &
 thunderbird &
-
-# compositor
-xcompmgr &
 
 # Start dwm
 exec dwm
