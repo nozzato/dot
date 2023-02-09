@@ -25,8 +25,8 @@ fi
 
 # Display
 autorandr -c
-xsetroot -solid "#15161e"
-#nitrogen --restore
+xcompmgr &
+hsetroot -solid "#15161e"
 
 # Audio
 pulseaudio-equalizer enable
