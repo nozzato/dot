@@ -25,7 +25,7 @@ fi
 
 # Display
 autorandr -c
-xcompmgr &
+(sleep 1 && xcompmgr) &
 hsetroot -solid "#15161e"
 
 # Audio
