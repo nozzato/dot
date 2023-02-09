@@ -19,6 +19,7 @@ alias ls='ls -lAhvN --group-directories-first --time-style=long-iso --color=auto
 alias history='history -i'
 alias grep='grep -i --color=auto'
 alias diff='diff --color=auto'
+alias locate='locate -i'
 alias less='less -i -x 4'
 alias ip='ip --color=auto'
 alias paru='paru --skipreview'
