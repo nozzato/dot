@@ -144,6 +144,11 @@ function preexec() {
 
 ### Keybinds
 
+if [ ! -f ~/.zkbd/$TERM-${${DISPLAY:t}:-$VENDOR-$OSTYPE} ]; then
+    autoload zkbd
+    zkbd
+fi
+
 source ~/.zkbd/$TERM-${${DISPLAY:t}:-$VENDOR-$OSTYPE}
 
 autoload -U up-line-or-beginning-search
