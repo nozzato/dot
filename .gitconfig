@@ -11,3 +11,5 @@
 	pull-all = pull --recurse-submodules
 [gpg]
 	format = ssh
+[commit]
+	gpgsign = true
