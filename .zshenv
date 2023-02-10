@@ -21,6 +21,9 @@ export RANGER_LOAD_DEFAULT_RC=0
 # SSH
 export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 
+# Sudo
+export SUDO_ASKPASS=~/bin/dpass
+
 # VeraCrypt
 export WXSUPPRESS_SIZER_FLAGS_CHECK=1
 
