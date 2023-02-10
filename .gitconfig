@@ -1,6 +1,7 @@
 [user]
 	email = noahtorrance27@gmail.com
 	name = Noah Torrance
+	signingkey = /home/noah/.ssh/github.com.pub
 [pull]
 	ff = only
 [alias]
@@ -8,3 +9,5 @@
 	push-force = push --force
 	clone-all = clone --recurse-submodules
 	pull-all = pull --recurse-submodules
+[gpg]
+	format = ssh
