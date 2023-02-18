@@ -105,8 +105,8 @@ setopt share_history
 
 # Options
 setopt auto_pushd
+setopt cd_silent
 setopt pushd_ignore_dups
-setopt pushd_silent
 setopt pushdminus
 
 ### vi mode
