@@ -33,9 +33,10 @@ pulseaudio-equalizer enable
 # Keymap
 setxkbmap gb
 setxkbmap -option caps:backspace
-setxkbmap -option shift:both_capslock
 xmodmap -e "clear Lock"
+setxkbmap -option shift:both_capslock
 setxkbmap -option compose:ralt
+xmodmap -e "keycode 135 = backslash bar"
 numlockx
 
 # Daemons
