@@ -30,7 +30,6 @@ alias grep='rg -S'
 alias vim='nvim'
 
 # Inhibit
-alias blender='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch blender'
 alias obs='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch obs'
 alias screenkey='systemd-inhibit --what=sleep:idle:handle-suspend-key:handle-hibernate-key:handle-lid-switch screenkey -M -p fixed -g 420x80+0+950 --key-mode raw --bak-mode normal -f "DejaVu Sans Mono" --opacity 0.2 --ignore KP_Subtract'
 alias veracrypt='systemd-inhibit --what=shutdown:handle-power-key veracrypt'
