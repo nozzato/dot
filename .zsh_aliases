@@ -7,6 +7,7 @@ alias suspend='systemctl suspend'
 alias hibernate='systemctl hibernate'
 alias inhibit='systemd-inhibit --what=shutdown:sleep:idle:handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch '
 alias grub-update='grub-mkconfig -o /boot/grub/grub.cfg'
+alias librewolf-private='librewolf --private-window'
 
 # Options
 alias cp='cp -vi'
