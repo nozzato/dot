@@ -8,3 +8,5 @@
 !.config/retroarch/retroarch.cfg
 .config/systemd/user/default.target.wants
 .config/systemd/user/sockets.target.wants
+.local/share/yetris/noah/hscores.yetrisscores
+.local/share/yetris/noah/statistics.bin
