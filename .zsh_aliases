@@ -24,6 +24,7 @@ alias grep='grep -i --color=auto'
 alias diff='diff --color=auto'
 alias locate='locate -i'
 alias less='less -i -x 4'
+alias nvtop='nvtop -p'
 alias ip='ip --color=auto'
 alias paru='paru --skipreview'
 
