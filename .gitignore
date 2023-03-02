@@ -1,3 +1,5 @@
+.config/draw.io/*
+!.config/draw.io/Preferences
 .config/OpenRGB/OpenRGB.json
 .config/OpenRGB/logs
 .config/mpd/mpd.db
