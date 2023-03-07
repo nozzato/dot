@@ -26,6 +26,7 @@ fi
 # Display
 autorandr -c
 hsetroot -solid "#15161e"
+picom &
 
 # Audio
 pulseaudio-equalizer enable
