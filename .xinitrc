@@ -52,7 +52,7 @@ otd &
 # Programs
 pavucontrol &
 keepassxc &
-ncmpcpps &
+ncmpcpp-st &
 thunderbird &
 
 # Start dwm
