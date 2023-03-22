@@ -1,3 +1,7 @@
+.config/Code - OSS/*
+!.config/Code - OSS/User
+.config/Code - OSS/User/*
+!.config/Code - OSS/User/settings.json
 .config/draw.io/*
 !.config/draw.io/Preferences
 .config/OpenRGB/OpenRGB.json
@@ -13,3 +17,7 @@
 .config/Thunar/accels.scm
 .local/share/yetris/noah/hscores.yetrisscores
 .local/share/yetris/noah/statistics.bin
+.vscode-oss/*
+!.vscode-oss/extensions
+.vscode-oss/extensions/*
+!.vscode-oss/extensions/extensions.json
