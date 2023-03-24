@@ -33,4 +33,7 @@
             "gitDecoration.ignoredResourceForeground": "#696d87",
         },
     },
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.roundedSelection": false,
+    "editor.lineDecorationsWidth": 0,
 }
