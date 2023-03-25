@@ -4,6 +4,7 @@ export PATH="$PATH":~/bin
 export EDITOR=nvim
 
 # clipmenu
+export CM_IGNORE_WINDOW=KeePassXC
 export CM_SELECTIONS=clipboard
 
 # Go
