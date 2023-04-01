@@ -1,3 +1,2 @@
 directory: ~/audio/music
 library: ~/audio/music/library.db
-plugins: bandcamp
