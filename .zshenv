@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-export PATH="$PATH":~/bin
+export PATH="$PATH":~/bin:~/.local/bin
 export EDITOR=nvim
 
 # clipmenu
