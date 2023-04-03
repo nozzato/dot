@@ -1,2 +1,5 @@
 directory: ~/audio/music
 library: ~/audio/music/library.db
+import:
+  timid: yes
+plugins: chroma fromfilename # bandcamp deezer discogs spotify

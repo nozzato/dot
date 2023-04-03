@@ -1,4 +1,5 @@
-.config/beets/state.pickle
+.config/beets/*
+!.config/beets/config.yaml
 .config/Code - OSS/*
 !.config/Code - OSS/User
 .config/Code - OSS/User/*
