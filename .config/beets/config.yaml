@@ -4,4 +4,6 @@ import:
   timid: yes
 replace:
   '’': "'"
+musicbrainz:
+  genre: yes
 plugins: chroma fromfilename # bandcamp deezer discogs spotify
