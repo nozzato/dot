@@ -3,7 +3,24 @@ library: ~/audio/music/library.db
 import:
   timid: yes
 replace:
+  '[\\/]': _
+  '^\.': _
+  '[\x00-\x1f]': _
+  '[<>:"\?\*\|]': _
+  '\.$': _
+  '\s+$': ''
+  '^\s+': ''
+  '^-': _
   '’': "'"
+  '[“”]': ''
 musicbrainz:
   genre: yes
-plugins: chroma fromfilename # bandcamp deezer discogs spotify
+plugins: bandcamp chroma discogs edit embedart fetchart fromfilename ftintitle info lyrics mbsync missing mpdupdate scrub spotify # bandcamp discogs spotify
+discogs:
+  source_weight: 0.5
+bandcamp:
+  source_weight: 0.6
+spotify:
+  source_weight: 0.7
+embedart:
+  remove_art_file: yes
