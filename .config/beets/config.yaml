@@ -15,14 +15,12 @@ replace:
   '[“”]': ''
 musicbrainz:
   genre: yes
-plugins: bandcamp chroma discogs fetchart fromfilename info mbsync missing mpdupdate scrub spotify zero # bandcamp discogs spotify
+plugins: bandcamp chroma discogs edit fetchart fromfilename info mbsync missing mpdupdate scrub spotify zero # bandcamp discogs spotify
 discogs:
   source_weight: 0.5
 bandcamp:
   source_weight: 0.6
 spotify:
   source_weight: 0.7
-embedart:
-  auto: no
 zero:
   fields: images
