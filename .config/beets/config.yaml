@@ -15,7 +15,7 @@ replace:
   '[“”]': ''
 musicbrainz:
   genre: yes
-plugins: bandcamp chroma discogs edit fetchart fromfilename info mbsync missing mpdupdate scrub spotify zero # bandcamp discogs spotify
+plugins: bandcamp chroma discogs edit fetchart fromfilename info mbsync missing mpdupdate scrub spotify zero
 discogs:
   source_weight: 0.5
 bandcamp:
