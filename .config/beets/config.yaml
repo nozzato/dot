@@ -21,6 +21,6 @@ discogs:
 bandcamp:
   source_weight: 0.6
 spotify:
-  source_weight: 0.7
+  source_weight: 0.0
 zero:
   fields: images
