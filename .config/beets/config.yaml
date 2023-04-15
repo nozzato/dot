@@ -15,12 +15,14 @@ replace:
   '[“”]': ''
 musicbrainz:
   genre: yes
-plugins: bandcamp chroma discogs edit fetchart fromfilename info mbsync missing mpdupdate scrub spotify zero
+plugins: bandcamp chroma discogs edit fetchart fromfilename fuzzy info mbsync missing mpdupdate scrub spotify zero
 discogs:
   source_weight: 0.5
 bandcamp:
   source_weight: 0.6
 spotify:
   source_weight: 0.0
+fuzzy:
+  prefix: "@"
 zero:
   fields: images
