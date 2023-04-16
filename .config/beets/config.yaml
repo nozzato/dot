@@ -1,6 +1,7 @@
 directory: ~/audio/music
 library: ~/audio/music/library.db
 import:
+  from_scratch: yes
   timid: yes
 replace:
   '[\\/]': _
@@ -26,3 +27,4 @@ fuzzy:
   prefix: "@"
 zero:
   fields: images
+  update_database: true
