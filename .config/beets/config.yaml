@@ -13,7 +13,7 @@ replace:
   '^\s+': ''
   '^-': _
   '’': "'"
-  '[“”]': ''
+  '[“”]': '"'
 musicbrainz:
   genre: yes
 plugins: bandcamp chroma discogs edit fetchart fromfilename fuzzy info mbsync missing mpdupdate scrub spotify zero
